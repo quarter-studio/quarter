@@ -1,6 +1,6 @@
 {
   "name": "@quarter/foundation",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publishConfig": {
     "access": "public"
   },
@@ -8,7 +8,7 @@
     "/Application.ts"
   ],
   "dependencies": {
-    "@quarter/container": "^0.1.0"
+    "@quarter/container": "^0.1.1"
   },
   "gitHead": "307cce1957b1aa992d06e31082ddc20abfc52841"
 }
