@@ -1,7 +1,7 @@
 {
   "name": "@quarter/foundation",
   "license": "MIT",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "publishConfig": {
     "access": "public"
   },
@@ -9,7 +9,7 @@
     "/Application.ts"
   ],
   "dependencies": {
-    "@quarter/container": "^0.1.3"
+    "@quarter/container": "^0.1.5"
   },
   "gitHead": "307cce1957b1aa992d06e31082ddc20abfc52841"
 }
