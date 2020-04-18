@@ -1,6 +1,6 @@
 class Container {
   bind() {
-    console.log('bind')
+    console.log('binds')
   }
 }
 
