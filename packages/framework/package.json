@@ -1,7 +1,7 @@
 {
   "name": "@quarter/framework",
   "license": "MIT",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "publishConfig": {
     "access": "public"
   },
@@ -9,8 +9,8 @@
     "/index.js"
   ],
   "dependencies": {
-    "@quarter/container": "^0.1.1",
-    "@quarter/foundation": "^0.1.1",
+    "@quarter/container": "^0.1.2",
+    "@quarter/foundation": "^0.1.2",
     "ts-node": "^8.8.2",
     "typescript": "^3.8.3"
   },
