@@ -5,7 +5,7 @@
     "access": "public"
   },
   "files": [
-    "/Application"
+    "/Application.ts"
   ],
   "dependencies": {
     "@quarter/container": "^0.1.0"

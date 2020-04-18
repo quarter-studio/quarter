@@ -5,7 +5,7 @@
     "access": "public"
   },
   "files": [
-    "/index"
+    "/index.js"
   ],
   "dependencies": {
     "@quarter/container": "^0.1.0",
