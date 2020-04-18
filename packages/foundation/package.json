@@ -1,6 +1,6 @@
 {
   "name": "@quarter/foundation",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publishConfig": {
     "access": "public"
   },
@@ -8,6 +8,6 @@
     "/Application"
   ],
   "dependencies": {
-    "@quarter/container": "^0.0.2"
+    "@quarter/container": "^0.0.3"
   }
 }
