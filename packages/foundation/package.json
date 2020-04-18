@@ -1,10 +1,10 @@
 {
   "name": "@quarter/foundation",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "files": [
     "/Application"
   ],
   "dependencies": {
-    "@quarter/container": "^0.0.1"
+    "@quarter/container": "^0.0.2"
   }
 }
