@@ -1,6 +1,9 @@
 {
   "name": "@quarter/foundation",
   "version": "0.0.2",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "/Application"
   ],

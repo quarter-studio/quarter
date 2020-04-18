@@ -1,6 +1,12 @@
 {
   "name": "@quarter/framework",
   "version": "0.0.2",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "/index"
+  ],
   "dependencies": {
     "@quarter/container": "^0.0.2",
     "@quarter/foundation": "^0.0.2",

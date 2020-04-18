@@ -1,6 +1,9 @@
 {
   "name": "@quarter/container",
   "version": "0.0.2",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "/Container"
   ]
