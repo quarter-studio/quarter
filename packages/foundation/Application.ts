@@ -5,6 +5,10 @@ class Application extends Container {
     super()
     console.log(basepath)
   }
+
+  bind() {
+    super.bind()
+  }
 }
 
 module.exports = Application
