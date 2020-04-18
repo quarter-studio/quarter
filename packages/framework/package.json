@@ -1,6 +1,6 @@
 {
   "name": "@quarter/framework",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "publishConfig": {
     "access": "public"
   },
@@ -8,8 +8,8 @@
     "/index"
   ],
   "dependencies": {
-    "@quarter/container": "^0.0.3",
-    "@quarter/foundation": "^0.0.3",
+    "@quarter/container": "^0.1.0",
+    "@quarter/foundation": "^0.1.0",
     "ts-node": "^8.8.2",
     "typescript": "^3.8.3"
   },
