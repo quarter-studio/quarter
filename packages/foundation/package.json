@@ -1,7 +1,7 @@
 {
   "name": "@quarter/foundation",
   "description": "@quarter/foundation",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "author": {
     "name": "Wilson Lewis",
     "email": "wilsonlewis@gmail.com"
@@ -24,8 +24,8 @@
     "build:types": "tsc --declarationDir dist/types --declaration --emitDeclarationOnly"
   },
   "dependencies": {
-    "@quarter/container": "^0.5.0",
-    "@quarter/contracts": "^0.5.0",
+    "@quarter/container": "^0.5.1",
+    "@quarter/contracts": "^0.5.1",
     "@quarter/support": "^0.3.8-alpha.0"
   },
   "devDependencies": {
