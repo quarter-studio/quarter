@@ -3,6 +3,7 @@
   "description": "@quarter/foundation",
   "version": "0.3.1-alpha.0",
   "license": "ISC",
+  "repository": "https://github.com/quarter-studio/quarter",
   "author": {
     "name": "Wilson Lewis",
     "email": "wilsonlewis@gmail.com"
@@ -25,5 +26,5 @@
     "@quarter/config": "^0.3.1-alpha.0",
     "typescript": "^4.6.2"
   },
-  "gitHead": "bdad7e2ecc31686ddb0e81ec22b38f4ba62a73c2"
+  "gitHead": "03a052f47b4394237c9a3d4d9c4970ab87d3c896"
 }
