@@ -1,8 +1,6 @@
 {
-  "version": "0.6.2",
-  "packages": [
-    "packages/*"
-  ],
+  "version": "independent",
+  "packages": ["packages/*"],
   "npmClient": "yarn",
   "command": {
     "publish": {

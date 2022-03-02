@@ -896,18 +896,6 @@
   dependencies:
     "@octokit/openapi-types" "^11.2.0"
 
-"@quarter/config@^0.3.8-alpha.0":
-  version "0.3.8-alpha.0"
-  resolved "https://registry.yarnpkg.com/@quarter/config/-/config-0.3.8-alpha.0.tgz#19b02868c59c7bc6b37506a6fd29f9941148e8f2"
-  integrity sha512-lLqpksm2YvzMgwE5bldFZlGV0FIYii/DJ7DW+8hVl4KdScnzN8VvMM5oMOzIrD6oozLxy63lgBLuFzLoMIxDqA==
-  dependencies:
-    "@types/node" "^17.0.21"
-
-"@quarter/support@^0.3.8-alpha.0":
-  version "0.3.8-alpha.0"
-  resolved "https://registry.yarnpkg.com/@quarter/support/-/support-0.3.8-alpha.0.tgz#be77b66c38ca7c8c2f6fbcb4b1f7511fb895fd68"
-  integrity sha512-PwE1IMKisU8UrM4iDIFdoF0v/YoFjpcC5tGoQ4poiE9QXpfirrWhgl1PPcYKpDcr8qVuXRVALyobjOmEG6wKvw==
-
 "@tootallnate/once@1":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-1.1.2.tgz#ccb91445360179a04e7fe6aff78c00ffc1eeaf82"

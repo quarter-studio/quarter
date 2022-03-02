@@ -1,7 +1,7 @@
 {
   "name": "@quarter/support",
   "description": "@quarter/support",
-  "version": "0.6.2",
+  "version": "0.7.0",
   "author": {
     "name": "Wilson Lewis",
     "email": "wilsonlewis@gmail.com"
@@ -28,14 +28,14 @@
     "prepublish": "yarn build"
   },
   "dependencies": {
-    "@quarter/contracts": "*",
+    "@quarter/contracts": "^0.7.0",
     "dotenv": "^16.0.0",
     "lodash.get": "^4.4.2",
     "lodash.mergewith": "^4.6.2",
     "lodash.set": "^4.3.2"
   },
   "devDependencies": {
-    "@quarter/config": "*",
+    "@quarter/config": "^0.7.0",
     "@types/lodash.get": "^4.4.6",
     "@types/lodash.mergewith": "^4.6.6",
     "@types/lodash.set": "^4.3.6",
