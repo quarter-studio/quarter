@@ -2,8 +2,7 @@
   "extends": "@quarter/config/tsconfig",
   "include": ["**/*.ts", "**/*.tsx"],
   "compilerOptions": {
-    "outDir": "dist",
-    "rootDir": "src",
-    "baseUrl": "src"
+    "baseUrl": "src",
+    "rootDir": "src"
   }
 }

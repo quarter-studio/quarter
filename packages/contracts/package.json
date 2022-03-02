@@ -1,6 +1,6 @@
 {
-  "name": "@quarter/foundation",
-  "description": "@quarter/foundation",
+  "name": "@quarter/contracts",
+  "description": "@quarter/contracts",
   "version": "0.5.0",
   "author": {
     "name": "Wilson Lewis",
@@ -13,23 +13,13 @@
   "files": [
     "dist"
   ],
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
   "types": "dist/types/index.d.ts",
   "scripts": {
     "clean": "rm -rf dist/",
-    "build": "yarn clean && yarn build:types && yarn build:esm && yarn build:cjs",
-    "build:cjs": "tsc --outDir dist/cjs --module CommonJS",
-    "build:esm": "tsc --outDir dist/esm --module ES2015",
+    "build": "yarn clean && yarn build:types",
     "build:types": "tsc --declarationDir dist/types --declaration --emitDeclarationOnly"
   },
-  "dependencies": {
-    "@quarter/container": "^0.5.0",
-    "@quarter/contracts": "^0.5.0",
-    "@quarter/support": "^0.3.8-alpha.0"
-  },
   "devDependencies": {
-    "@quarter/config": "^0.3.8-alpha.0",
     "typescript": "^4.6.2"
   },
   "gitHead": "7922dd631b29b4ba5465f669a48e20cfc611ae6b"

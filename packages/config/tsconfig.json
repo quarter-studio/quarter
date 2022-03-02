@@ -1,16 +1,16 @@
 {
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
-    "declaration": true,
     "esModuleInterop": true,
+    "jsx": "react",
     "lib": ["DOM", "ESNext"],
-    "module": "ESNext",
+    "module": "ES2015",
     "moduleResolution": "Node",
     "noImplicitAny": true,
     "noUnusedLocals": true,
     "sourceMap": true,
     "strict": true,
-    "target": "ES2016",
+    "target": "ES6",
     "types": ["node"]
   }
 }

@@ -1,6 +1,6 @@
 {
-  "name": "@quarter/support",
-  "description": "@quarter/support",
+  "name": "@quarter/container",
+  "description": "@quarter/container",
   "version": "0.5.0",
   "author": {
     "name": "Wilson Lewis",
@@ -24,15 +24,10 @@
     "build:types": "tsc --declarationDir dist/types --declaration --emitDeclarationOnly"
   },
   "dependencies": {
-    "lodash.get": "^4.4.2",
-    "lodash.mergewith": "^4.6.2",
-    "lodash.set": "^4.3.2"
+    "@quarter/support": "^0.3.8-alpha.0"
   },
   "devDependencies": {
     "@quarter/config": "^0.3.8-alpha.0",
-    "@types/lodash.get": "^4.4.6",
-    "@types/lodash.mergewith": "^4.6.6",
-    "@types/lodash.set": "^4.3.6",
     "typescript": "^4.6.2"
   },
   "gitHead": "7922dd631b29b4ba5465f669a48e20cfc611ae6b"
