@@ -1,7 +1,7 @@
 {
   "name": "@quarter/support",
   "description": "@quarter/support",
-  "version": "0.3.1-alpha.0",
+  "version": "0.3.2-alpha.0",
   "license": "ISC",
   "repository": "https://github.com/quarter-studio/quarter",
   "author": {
@@ -20,7 +20,7 @@
     "prepublish": "yarn build"
   },
   "devDependencies": {
-    "@quarter/config": "^0.3.1-alpha.0",
+    "@quarter/config": "^0.3.2-alpha.0",
     "typescript": "^4.6.2"
   },
   "gitHead": "03a052f47b4394237c9a3d4d9c4970ab87d3c896"
