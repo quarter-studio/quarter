@@ -11,8 +11,7 @@
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
     "publish": "lerna publish",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "prepublish": "lerna run build"
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
     "lerna": "^4.0.0",

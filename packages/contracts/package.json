@@ -15,12 +15,12 @@
   ],
   "types": "dist/types/index.d.ts",
   "scripts": {
-    "clean": "rm -rf dist/",
     "build": "yarn clean && yarn build:types",
-    "build:types": "tsc --declarationDir dist/types --declaration --emitDeclarationOnly"
+    "build:types": "tsc --declarationDir dist/types --declaration --emitDeclarationOnly",
+    "clean": "rm -rf dist/",
+    "prepublish": "yarn build"
   },
   "devDependencies": {
     "typescript": "^4.6.2"
-  },
-  "gitHead": "7922dd631b29b4ba5465f669a48e20cfc611ae6b"
+  }
 }
