@@ -1,7 +1,7 @@
 {
   "name": "@quarter/foundation",
   "description": "@quarter/foundation",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "author": {
     "name": "Wilson Lewis",
     "email": "wilsonlewis@gmail.com"
@@ -28,9 +28,9 @@
     "prepublish": "yarn build"
   },
   "dependencies": {
-    "@quarter/container": "*",
+    "@quarter/container": "^0.6.2",
     "@quarter/contracts": "*",
-    "@quarter/support": "*"
+    "@quarter/support": "^0.6.2"
   },
   "devDependencies": {
     "@quarter/config": "*",
