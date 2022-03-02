@@ -1,7 +1,7 @@
 {
   "name": "@quarter/support",
   "description": "@quarter/support",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "license": "ISC",
   "author": {
     "name": "Wilson Lewis",
@@ -19,7 +19,7 @@
     "publish": "npm publish"
   },
   "devDependencies": {
-    "@quarter/config": "*",
+    "@quarter/config": "^0.2.3",
     "typescript": "^4.6.2"
   }
 }
