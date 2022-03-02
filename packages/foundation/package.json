@@ -1,7 +1,7 @@
 {
   "name": "@quarter/foundation",
   "description": "@quarter/foundation",
-  "version": "0.3.6-alpha.0",
+  "version": "0.3.7-alpha.0",
   "repository": "https://github.com/quarter-studio/quarter",
   "author": {
     "name": "Wilson Lewis",
@@ -14,10 +14,10 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@quarter/support": "^0.3.6-alpha.0"
+    "@quarter/support": "^0.3.7-alpha.0"
   },
   "devDependencies": {
-    "@quarter/config": "^0.3.6-alpha.0",
+    "@quarter/config": "^0.3.7-alpha.0",
     "typescript": "^4.6.2"
   },
   "gitHead": "7922dd631b29b4ba5465f669a48e20cfc611ae6b"
