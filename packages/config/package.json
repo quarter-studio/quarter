@@ -2,7 +2,6 @@
   "name": "@quarter/config",
   "description": "@quarter/config",
   "version": "0.3.3-alpha.0",
-  "license": "ISC",
   "repository": "https://github.com/quarter-studio/quarter",
   "author": {
     "name": "Wilson Lewis",
@@ -14,5 +13,5 @@
   "dependencies": {
     "@types/node": "^17.0.21"
   },
-  "gitHead": "378ffb8cb49a9e004cd4f0fd142968dd4a52c2be"
+  "gitHead": "2686dd0cd0d0bc30fe306855039b29830fd0ba6d"
 }
