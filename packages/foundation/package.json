@@ -16,7 +16,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "publish": "npm publish"
+    "prepublish": "yarn build"
   },
   "dependencies": {
     "@quarter/support": "^0.3.0"
@@ -25,5 +25,5 @@
     "@quarter/config": "^0.3.0",
     "typescript": "^4.6.2"
   },
-  "gitHead": "f8d308e9edadbf82de15be3393b056ac71e957dd"
+  "gitHead": "bdad7e2ecc31686ddb0e81ec22b38f4ba62a73c2"
 }
