@@ -7,11 +7,14 @@
     "name": "Wilson Lewis",
     "email": "wilsonlewis@gmail.com"
   },
+  "files": [
+    "tsconfig.json"
+  ],
   "scripts": {
     "publish": "npm publish"
   },
   "dependencies": {
     "@types/node": "^17.0.21"
   },
-  "gitHead": "2686dd0cd0d0bc30fe306855039b29830fd0ba6d"
+  "gitHead": "fbcd5863bcaf2ab0aaa2296a67f16cba03fd875f"
 }
