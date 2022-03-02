@@ -28,14 +28,14 @@
     "prepublish": "yarn build"
   },
   "dependencies": {
-    "@quarter/contracts": "^0.6.1",
+    "@quarter/contracts": "*",
     "dotenv": "^16.0.0",
     "lodash.get": "^4.4.2",
     "lodash.mergewith": "^4.6.2",
     "lodash.set": "^4.3.2"
   },
   "devDependencies": {
-    "@quarter/config": "^0.3.8-alpha.0",
+    "@quarter/config": "*",
     "@types/lodash.get": "^4.4.6",
     "@types/lodash.mergewith": "^4.6.6",
     "@types/lodash.set": "^4.3.6",
