@@ -1,14 +1,14 @@
 {
   "name": "@quarter/support",
   "description": "@quarter/support",
-  "version": "0.3.7-alpha.0",
+  "version": "0.3.8-alpha.0",
   "repository": "https://github.com/quarter-studio/quarter",
   "author": {
     "name": "Wilson Lewis",
     "email": "wilsonlewis@gmail.com"
   },
   "devDependencies": {
-    "@quarter/config": "^0.3.7-alpha.0",
+    "@quarter/config": "^0.3.8-alpha.0",
     "typescript": "^4.6.2"
   },
   "gitHead": "7922dd631b29b4ba5465f669a48e20cfc611ae6b"
