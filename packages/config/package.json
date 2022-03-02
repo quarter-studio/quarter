@@ -8,15 +8,11 @@
     "name": "Wilson Lewis",
     "email": "wilsonlewis@gmail.com"
   },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org",
-    "access": "public"
-  },
   "scripts": {
     "publish": "npm publish"
   },
   "dependencies": {
     "@types/node": "^17.0.21"
   },
-  "gitHead": "03a052f47b4394237c9a3d4d9c4970ab87d3c896"
+  "gitHead": "378ffb8cb49a9e004cd4f0fd142968dd4a52c2be"
 }
