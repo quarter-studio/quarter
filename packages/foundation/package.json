@@ -1,7 +1,7 @@
 {
   "name": "@quarter/foundation",
   "description": "@quarter/foundation",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "license": "ISC",
   "author": {
     "name": "Wilson Lewis",
@@ -19,10 +19,10 @@
     "publish": "npm publish"
   },
   "dependencies": {
-    "@quarter/support": "^0.2.3"
+    "@quarter/support": "^0.2.4"
   },
   "devDependencies": {
-    "@quarter/config": "^0.2.3",
+    "@quarter/config": "^0.2.4",
     "typescript": "^4.6.2"
   },
   "gitHead": "eecdd3f83baa23800284739257f769c9a03e26cc"
