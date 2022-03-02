@@ -4,7 +4,6 @@
   "npmClient": "yarn",
   "command": {
     "publish": {
-      "access": "public",
       "message": "chore(release): publish",
       "registry": "https://registry.npmjs.org"
     }
