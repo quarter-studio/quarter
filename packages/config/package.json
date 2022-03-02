@@ -7,6 +7,9 @@
     "name": "Wilson Lewis",
     "email": "wilsonlewis@gmail.com"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "tsconfig.json"
   ],

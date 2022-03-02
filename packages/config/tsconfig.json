@@ -2,6 +2,7 @@
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
+    "declaration": false,
     "jsx": "react",
     "lib": ["DOM", "ESNext"],
     "module": "ES2015",
