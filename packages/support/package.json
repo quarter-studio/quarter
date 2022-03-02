@@ -1,20 +1,25 @@
 {
-  "name": "@quarter/config",
-  "description": "@quarter/config",
+  "name": "@quarter/support",
+  "description": "@quarter/support",
   "version": "0.2.2",
   "license": "ISC",
   "author": {
     "name": "Wilson Lewis",
     "email": "wilsonlewis@gmail.com"
   },
+  "files": [
+    "dist"
+  ],
   "publishConfig": {
     "registry": "https://registry.npmjs.org",
     "access": "public"
   },
   "scripts": {
+    "build": "tsc",
     "publish": "npm publish"
   },
-  "dependencies": {
-    "@types/node": "^17.0.21"
+  "devDependencies": {
+    "@quarter/config": "*",
+    "typescript": "^4.6.2"
   }
 }
