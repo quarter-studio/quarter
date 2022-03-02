@@ -1,7 +1,7 @@
 {
   "name": "@quarter/support",
   "description": "@quarter/support",
-  "version": "0.3.0",
+  "version": "0.3.1-alpha.0",
   "license": "ISC",
   "author": {
     "name": "Wilson Lewis",
@@ -19,7 +19,7 @@
     "prepublish": "yarn build"
   },
   "devDependencies": {
-    "@quarter/config": "^0.3.0",
+    "@quarter/config": "^0.3.1-alpha.0",
     "typescript": "^4.6.2"
   },
   "gitHead": "bdad7e2ecc31686ddb0e81ec22b38f4ba62a73c2"
