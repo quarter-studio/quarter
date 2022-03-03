@@ -1,8 +1,0 @@
-{
-  "extends": "@quarter/config/tsconfig",
-  "include": ["**/*.ts", "**/*.tsx"],
-  "compilerOptions": {
-    "baseUrl": "src",
-    "rootDir": "src"
-  }
-}

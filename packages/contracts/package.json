@@ -13,18 +13,8 @@
   "publishConfig": {
     "access": "public"
   },
-  "files": [
-    "dist"
-  ],
-  "types": "dist/types/index.d.ts",
-  "scripts": {
-    "build": "yarn clean && yarn build:types",
-    "build:types": "tsc --declarationDir dist/types --declaration --emitDeclarationOnly",
-    "clean": "rm -rf dist/",
-    "prepublish": "yarn build"
-  },
   "optionalDependencies": {
-    "rxjs": ">= 7"
+    "rxjs": ">=7"
   },
   "gitHead": "ce8e9dac8b55635b15434891daf76cb6ec8729b2"
 }
