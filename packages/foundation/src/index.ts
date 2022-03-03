@@ -1,2 +1,2 @@
 export * from "./Application";
-export * from "./Provider";
+export * from "./Project";

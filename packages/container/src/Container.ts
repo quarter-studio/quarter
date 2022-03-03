@@ -1,7 +1,13 @@
-export class Container {
+import { Container as ContainerContract } from "@quarter/contracts";
+
+export class Container implements ContainerContract {
   protected aliases = new Map();
   protected bindings = new Map();
   protected instances = new Map();
+
+  constructor() {
+    this.provide("container", this);
+  }
 
   public alias(alias: any, key: any) {
     this.aliases.set(alias, key);
@@ -11,7 +17,7 @@ export class Container {
     this.bindings.set(key, { build, shared });
   }
 
-  public build<Instance>(key: any, args: any[]): Instance {
+  public build<Class>(key: any, args: any[]): Class {
     if (this.instances.has(key)) {
       return this.instances.get(key);
     }
@@ -26,12 +32,12 @@ export class Container {
     return instance;
   }
 
-  public make<Instance>(key: any, ...args: any[]) {
+  public make<Class>(key: any, ...args: any[]) {
     while (this.aliases.has(key)) {
       key = this.aliases.get(key);
     }
 
-    return this.build<Instance>(key, args);
+    return this.build<Class>(key, args);
   }
 
   public provide(key: any, instance: any) {

@@ -1,4 +1,4 @@
-import { Application } from "./Application";
+import { Application } from "@quarter/contracts";
 
 export class Provider {
   constructor(protected app: Application) {}

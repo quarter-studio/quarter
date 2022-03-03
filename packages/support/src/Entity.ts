@@ -1,8 +1,9 @@
+import { Entity as EntityContract } from "@quarter/contracts";
 import get from "lodash.get";
 import merge from "lodash.mergewith";
 import set from "lodash.set";
 
-export class Entity {
+export class Entity implements EntityContract {
   constructor(protected data: any = {}) {}
 
   public from(key: string): this {
@@ -16,10 +17,12 @@ export class Entity {
 
   public merge(data: any, strategy = Entity.mergeStrategy) {
     merge(this.data, data, strategy);
+    return this;
   }
 
   public set(key: string, value: any) {
     set(this.data, key, value);
+    return this;
   }
 
   public static mergeStrategy(a: any, b: any) {

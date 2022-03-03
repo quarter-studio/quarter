@@ -1,3 +1,3 @@
 export interface Constructor<Class> {
-  new (...args: any[]): Class;
+  new (...args: any): Class;
 }
