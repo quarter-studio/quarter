@@ -1,7 +1,7 @@
 {
   "name": "@quarter/ledger",
   "description": "@quarter/ledger",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "author": {
     "name": "Wilson Lewis",
     "email": "wilsonlewis@gmail.com"
@@ -28,8 +28,8 @@
     "prepublish": "yarn build"
   },
   "dependencies": {
-    "@quarter/contracts": "^0.7.0",
-    "@quarter/support": "^0.7.0"
+    "@quarter/contracts": "^0.7.1",
+    "@quarter/support": "^0.7.1"
   },
   "optionalDependencies": {
     "rxjs": ">= 7"

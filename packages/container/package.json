@@ -1,7 +1,7 @@
 {
   "name": "@quarter/container",
   "description": "@quarter/container",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "author": {
     "name": "Wilson Lewis",
     "email": "wilsonlewis@gmail.com"
@@ -28,7 +28,7 @@
     "prepublish": "yarn build"
   },
   "dependencies": {
-    "@quarter/contracts": "^0.7.0"
+    "@quarter/contracts": "^0.7.1"
   },
   "peerDependencies": {
     "rxjs": ">= 7"
